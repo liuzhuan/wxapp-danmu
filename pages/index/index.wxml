@@ -1,0 +1,3 @@
+<import src="../../components/danmu/index.wxml" />
+
+<template is="danmu" data="{{ items, movings }}" />

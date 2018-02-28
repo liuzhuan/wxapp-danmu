@@ -1,0 +1,43 @@
+.danmu-container {
+  position: relative;
+}
+
+.danmu-item {
+  left: -200px;
+  position: absolute;
+  animation-fill-mode: forwards;
+}
+
+.moving {
+  animation: move 4s linear;
+}
+
+.moving.row2 {
+  animation-duration: 6s;
+}
+
+.moving.row3 {
+  animation-duration: 5s;
+}
+
+.row1 {
+  top: 10px;
+}
+
+.row2 {
+  top: 30px;
+}
+
+.row3 {
+  top: 60px;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(600px);
+  }
+
+  100% {
+    transform: translateX(-100px);
+  }
+}

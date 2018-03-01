@@ -25,7 +25,7 @@ Danmu.prototype.move = function() {
 
 Danmu.prototype.reset = function() {
   this.stop()
-  setTimeout(this.start.bind(this), 3000)
+  setTimeout(this.start.bind(this), 4000)
 }
 
 Danmu.prototype.stop = function() {

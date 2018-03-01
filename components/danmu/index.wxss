@@ -3,7 +3,7 @@
 }
 
 .danmu-item {
-  left: -200px;
+  left: -400rpx;
   position: absolute;
   animation-fill-mode: forwards;
 }
@@ -34,10 +34,10 @@
 
 @keyframes move {
   0% {
-    transform: translateX(600px);
+    transform: translateX(1150rpx);
   }
 
   100% {
-    transform: translateX(-100px);
+    transform: translateX(-100rpx);
   }
 }

@@ -3,9 +3,9 @@ import Danmu from '../../components/danmu/index.js'
 Page({
   data: {
     items: [
-      { label: 'One' },
-      { label: 'Two' },
-      { label: 'Three' },
+      { label: 'Angelababy' },
+      { label: '诉讼' },
+      { label: '你好' },
       { label: 'Four' },
       { label: 'Five' },
       { label: 'Six' },
